@@ -1,0 +1,104 @@
+{
+    "label_articles_and_text_XGBoost_all-MiniLM-L6-v2": {
+        "acc": 0.952247191011236,
+        "f1": 0.32,
+        "precision": 0.7272727272727273,
+        "recall": 0.20512820512820512,
+        "prec_auc": 0.1927234750268458,
+        "conf_matrix": [
+            [
+                670,
+                3
+            ],
+            [
+                31,
+                8
+            ]
+        ]
+    },
+    "label_articles_and_text_SVM_all-MiniLM-L6-v2": {
+        "acc": 0.9578651685393258,
+        "f1": 0.5454545454545455,
+        "precision": 0.6666666666666666,
+        "recall": 0.46153846153846156,
+        "prec_auc": 0.3371866897147796,
+        "conf_matrix": [
+            [
+                664,
+                9
+            ],
+            [
+                21,
+                18
+            ]
+        ]
+    },
+    "label_articles_and_text_logistic_regression_all-MiniLM-L6-v2": {
+        "acc": 0.9199438202247191,
+        "f1": 0.43564356435643564,
+        "precision": 0.3548387096774194,
+        "recall": 0.5641025641025641,
+        "prec_auc": 0.2240418304662596,
+        "conf_matrix": [
+            [
+                633,
+                40
+            ],
+            [
+                17,
+                22
+            ]
+        ]
+    },
+    "label_articles_and_text_XGBoost_paraphrase-multilingual-MiniLM-L12-v2": {
+        "acc": 0.9606741573033708,
+        "f1": 0.5172413793103449,
+        "precision": 0.7894736842105263,
+        "recall": 0.38461538461538464,
+        "prec_auc": 0.33735158986489566,
+        "conf_matrix": [
+            [
+                669,
+                4
+            ],
+            [
+                24,
+                15
+            ]
+        ]
+    },
+    "label_articles_and_text_SVM_paraphrase-multilingual-MiniLM-L12-v2": {
+        "acc": 0.9662921348314607,
+        "f1": 0.6842105263157895,
+        "precision": 0.7027027027027027,
+        "recall": 0.6666666666666666,
+        "prec_auc": 0.4867268954347606,
+        "conf_matrix": [
+            [
+                662,
+                11
+            ],
+            [
+                13,
+                26
+            ]
+        ]
+    },
+    "label_articles_and_text_logistic_regression_paraphrase-multilingual-MiniLM-L12-v2": {
+        "acc": 0.9438202247191011,
+        "f1": 0.6078431372549019,
+        "precision": 0.49206349206349204,
+        "recall": 0.7948717948717948,
+        "prec_auc": 0.4023633461835709,
+        "conf_matrix": [
+            [
+                641,
+                32
+            ],
+            [
+                8,
+                31
+            ]
+        ]
+    }
+}
