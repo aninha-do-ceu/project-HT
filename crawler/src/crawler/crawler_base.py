@@ -98,6 +98,8 @@ class CrawlerBase:
             url_max_opt: inteiro que define o número máximo de páginas a serem
             acessadas. Por padrão, determina-se o número de páginas para determinado
             termo e portal a partir do dicionário dict_max_url.
+            url_max_force: booleano que indica se o máximo de páginas
+            automaticamente detectado deve ser ignorado.
         return:
             dicionário onde chave é o portal de notícias
             e valor é uma lista que contém a estrutura HTML
