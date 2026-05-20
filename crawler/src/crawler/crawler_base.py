@@ -126,6 +126,9 @@ class CrawlerBase:
                         url_search = re.sub(r'page=\d+', f'page={i}', url)
                     if url_search:
                         content_search = self.fetch(url_search)
+                        if content_search is None:
+                            print(f"Failed URL: {url_search}")
+                            continue
                         content_search = self.parse(content_search)
                         dict_list_html_content_search[portal].append(content_search)
                     time.sleep(5)
